@@ -31,16 +31,17 @@ A Spring Boot-based RESTful application to manage student records efficiently. T
 ## 🗂️ Project Structure
 student-management/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/student/
-│ │ │ ├── controller/
-│ │ │ ├── entity/
-│ │ │ ├── repository/
-│ │ │ ├── service/
-│ │ │ └── StudentManagementApplication.java
-│ │ └── resources/
-│ │ └── application.properties
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/student/
+│   │   │       ├── controller/
+│   │   │       ├── entity/
+│   │   │       ├── repository/
+│   │   │       ├── service/
+|   |   |       ├── impl
+│   │   │       └── StudentManagementApplication.java
+│   │   └── resources/
+│   │       └── application.properties
 ├── pom.xml
 └── README.md
 
@@ -67,9 +68,17 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/student_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
+```
 
+▶️ Run the Project
+bash
+Copy
+Edit
+# Compile and run
+mvn spring-boot:run
+API will be available at: http://localhost:8080/students
 
-###📫 API Endpoints
+📫 API Endpoints
 Method	Endpoint	Description
 POST	/students	Add a new student
 GET	/students	Get all students
