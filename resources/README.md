@@ -69,7 +69,7 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
 
-📫 API Endpoints
+###📫 API Endpoints
 Method	Endpoint	Description
 POST	/students	Add a new student
 GET	/students	Get all students
