@@ -69,5 +69,19 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
 
+📫 API Endpoints
+Method	Endpoint	Description
+POST	/students	Add a new student
+GET	/students	Get all students
+GET	/students/{id}	Get student by ID
+PUT	/students/{id}	Update student by ID
+DELETE	/students/{id}	Delete student by ID
+
+🙌 Contributors
+👩‍💻 Chilakapati Martha Grace
+
+📜 License
+This project is licensed under the MIT License - feel free to use, modify, and distribute.
+
 
 
