@@ -76,12 +76,14 @@ mvn spring-boot:run
 API will be available at: http://localhost:8080/students
 
 📫 API Endpoints
+
 Method	Endpoint	Description
 POST	/students	Add a new student
 GET	/students	Get all students
 GET	/students/{id}	Get student by ID
 PUT	/students/{id}	Update student by ID
 DELETE	/students/{id}	Delete student by ID
+
 
 🙌 Contributors
 👩‍💻 Chilakapati Martha Grace
