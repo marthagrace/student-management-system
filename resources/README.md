@@ -71,9 +71,6 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 
 ▶️ Run the Project
-bash
-Copy
-Edit
 # Compile and run
 mvn spring-boot:run
 API will be available at: http://localhost:8080/students
