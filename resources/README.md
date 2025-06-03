@@ -70,28 +70,4 @@ spring.jpa.hibernate.ddl-auto=update
 
 
 
-▶️ Run the Project
-bash
-Copy
-Edit
-# Compile and run
-mvn spring-boot:run
-API will be available at: http://localhost:8080/students
 
-📫 API Endpoints
-Method	Endpoint	Description
-POST	/students	Add a new student
-GET	/students	Get all students
-GET	/students/{id}	Get student by ID
-PUT	/students/{id}	Update student by ID
-DELETE	/students/{id}	Delete student by ID
-
-🙌 Contributors
-👩‍💻 Divya Adabala
-
-📜 License
-This project is licensed under the MIT License - feel free to use, modify, and distribute.
-
-mathematica
-Copy
-Edit
